@@ -17,7 +17,7 @@ if(localStorage.getItem('list')!=null){
 
 function addBook(){
   if(siteName.value === ""){
-    document.getElementById('nameError').innerText='you must fill the book market name'
+    document.getElementById('nameError').innerText='you must fill the bookMark name'
     document.getElementById('nameError').classList.replace('d-none','d-block')
 
   }else{
